@@ -1,17 +1,36 @@
 
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
     text-align: center;
-
+    background-color: black;
+    max-width: 1000px;
+    margin: 20px auto;
 }
 
 h1 {
     font-size: 50px;
+    font-weight: bolder;
     color: white;
+    letter-spacing: -3px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 100px;
+    letter-spacing: -1px;
+}
+
+p {
+    color: grey;
+    font-size: 21px;
 }
 
 a {
     font-size: 16px;
     color: aquamarine;
+    text-decoration: underline;
+    display: block;
+    margin: 50px;
 }
